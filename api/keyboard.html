@@ -1,0 +1,136 @@
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+  .keyboard{
+    width:100%;
+    height:190px;
+    background:grey;
+    position:fixed;
+    z-index:200;
+    bottom:-200px;
+    left:0;
+  }
+  #keyboard{
+    width:800px;
+    margin:auto;
+  }
+  .key:active{
+    box-shadow:0px 0px 10px #14B524; 
+    z-index:1000;
+  }
+  .key{
+    color:white;
+    width: 45px; height:40px;
+    display:block;
+    background-color:#333;
+    text-align: left;
+    padding-left: 8px;
+    line-height: 25px;
+    border-radius:2px;
+    float:left; margin-left: 2px;
+    margin-bottom:2px;
+    cursor: pointer;
+  }
+  .inputKeyboard{
+    width:100%;
+    border:0;
+    background:rgba(0,0,0,0);
+    color:white;
+    text-align:center;
+  }
+  .quittKeyboard{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:199;
+    bottom:0;
+    left:0;
+    display:none;
+  }
+  .space{
+    width: 20px; height:40px;
+    display:block;
+    float:left; margin-left: 2px;
+    margin-bottom:2px;
+  }
+  
+  
+</style>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+<div class="quittKeyboard"></div>
+<div class="keyboard">
+  <input class="inputKeyboard" type="text">
+  <div id="keyboard"></div>
+  <div class="key"></div>
+</div>
+
+
+<script>
+
+var key0="azertyuiop|/*-+qsdfghjklm|789=\twxcvbn'\r|456%éè, .\n|123"
+var key1="AZERTYUIOP|()[]QSDFGHJKLM|{}#_\tWXCVBN'\r|\"£$€ùê@ ?;!|çà°"
+displayKeyboard(key0)
+function displayKeyboard(key){
+  
+  $('#keyboard').html('')
+  for(k in key){
+    if(key[k]=="|"){
+      $('#keyboard').append('<div class="space"></div>')
+    }else if (key[k]=="\n"){
+      $('#keyboard').append('<div class="key" style="width: 100px; line-height: 40px;">Entrée</div>')    
+    }else if (key[k]=="\t"){
+      $('#keyboard').append('<div class="key" style="width: 72px; line-height: 40px;">Shift</div>')
+    }else if (key[k]=="\r"){
+      $('#keyboard').append('<div class="key" style="width: 73px; line-height: 40px;">Retour</div>')
+    }else if (key[k]==" "){
+      $('#keyboard').append('<div class="key" style="width: 210px;"> </div>')
+    }else{
+      $('#keyboard').append('<div class="key">'+key[k]+'</div>')
+    }
+  }
+  keyboard=0;
+   $('.key').click(function(){
+   
+     if(this.innerHTML=="Shift"){
+       if(keyboard){ keyboard=0; displayKeyboard(key0); }else{ keyboard=1; displayKeyboard(key1); }
+     }else if(this.innerHTML=="Entrée"){
+       keyboardInput.value+="\n"
+       keyboardInput.focus();
+     }else if(this.innerHTML=="Retour"){
+       keyboardInput.value=keyboardInput.value.slice(0, -1)
+       keyboardInput.focus();
+     }else if(this.innerHTML==""){
+       $('.keyboard').animate({'bottom': '-200px'},500)
+     }else{
+       keyboardInput.value+=this.innerHTML
+       keyboardInput.focus();
+     }
+     $('.inputKeyboard').val(keyboardInput.value)
+     
+     $('#'+keyboardInput.id).keyup();
+  }); 
+}
+var keyboardInput
+$('html').click(function(e){
+  
+    var target = $(e.target.nodeName)
+    //console.log(e.target.type)
+    if(e.target.type=="text" && e.target.nodeName=="INPUT" || e.target.type=="search" && e.target.nodeName=="INPUT" || target.is('textarea')) {
+       $('.keyboard').animate({'bottom': '0px'},200)  
+       $('.quittKeyboard').css('display','block')
+       keyboardInput=document.getElementById(e.target.id)
+       $('.inputKeyboard').val(keyboardInput.value)
+    }
+  });
+
+$('.quittKeyboard').click(function(){
+   $('.keyboard').animate({'bottom': '-200px'},200)  
+   $('.quittKeyboard').css('display','none')
+   keyboardInput=this
+    $('.inputKeyboard').val('')
+}); 
+
+</script>

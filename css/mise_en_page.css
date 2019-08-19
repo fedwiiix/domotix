@@ -1,0 +1,770 @@
+/******************************************************************** gestion des positions des éléments de la page **************************************/
+#center{
+  position: absolute;
+  z-index: 1;
+}
+/******************************************************************** titres ******************************************************************************/
+
+#titre_pages{
+  position: fixed;
+  z-index:5;
+  left:19%;
+  top:0;
+  padding-left: 5%;
+  width: 95%;
+  z-index: 1;
+  cursor:pointer;
+  font-size: 30px;
+  color: #fff;
+  text-align: left;
+  background: #006dad;
+  /*border-bottom: 1px solid #181818;*/
+  overflow: hidden; 
+  white-space:nowrap;
+  text-overflow: ellipsis;
+ }
+ #titre_module{ 
+  position:absolute;
+  z-index: 1;  
+  cursor:pointer; 
+  font-size: 140%;
+  text-align: center;  
+  background: #006dad;
+  /*border-bottom: 1px solid #181818;*/
+  /*border-top: 1px solid #181818;*/
+	margin:0 0% ;
+	color: #fff;
+  overflow: hidden; 
+  white-space:nowrap;
+  text-overflow: ellipsis;
+ }
+ .container #titre_module, .container_haut #titre_module{
+  width:23%;
+ }
+ .container_long #titre_module{
+  width:48%;
+ }
+
+/******************************************************************* container *******************************************************************************/
+
+#volet    
+{
+  background-color:#006dad;
+}
+.menu, .menu_mobile{
+	background-color:#0073b7;
+	border-right: 1px solid #0067a3;
+}
+
+.big-container, .big-container-musicPlayer, .dj_container {                       /*  contenaires de différentes pages  */
+  position: absolute; 
+  z-index: 0;
+  width: 79%;
+  left:19%;
+  height:98%;
+  top: 0;
+  padding:1%;
+  background-color: rgba(33, 33, 33, 0);
+  overflow-x: hidden;
+  z-index:4;
+  text-align: center;
+}
+
+#homePage, #modulePage, .dj_container{           
+  background-color: rgba(9, 9, 9, 0);
+  width: 96%;
+  left:4% ;
+  padding: 0;
+  height: 100%;
+}
+
+.container_long, .container_haut, .container{
+  overflow-y: scroll;
+  float:left;
+  text-align: center;
+  margin:1% 1% ;
+  height: 45%;
+  background-color:#fff;
+  box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+.doubleContainer{
+  width: 23%;	
+  height: 45%;
+  float:left;
+  margin:1% 1% ;
+  position:relative;
+}
+.doubleContainer .container{
+  height:48%; 
+  width:100%; 
+  margin:0;
+}
+.doubleContainer #titre_module{
+  width:100%; 
+}
+
+.container, .container_haut{                               /*  contenaires de différentes formes  */
+  width: 23%;		
+}
+.container_long {
+  width: 48%;
+}
+.container_haut { 
+  height: 99.8%;
+}
+
+
+textarea, .container input, .module_alarme input, #affichage_planing li {
+  background-color:rgba(0, 0, 0, 0);
+  resize: none;
+  border: 0;
+  padding: 1%;
+  /*color:#fff;*/
+}
+@media (max-width: 800px) {
+	.container #titre_module, .container_haut #titre_module, .container_long #titre_module{
+    width:100%;
+  }
+  #titre_pages{
+    width:90%;
+    left:10%;
+  }
+  .big-container, #homePage, #modulePage, .dj_container, .big-container-musicPlayer {                  
+    left: 10%;
+    width:90%;
+  }
+  .container, .container_long {                               /*  contenaires de différentes formes  */
+    float:left;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    padding: 0%; 
+    border:0%;
+    margin:0%; 
+  }
+}
+
+/**************************************************** color *******************************************************************************************/
+/*****************************************************************************************************************************************************/
+
+
+#date_heure{
+  color: #006dad;
+  font-size:45px;
+}
+
+.checkbox_agenda[type=checkbox] + .checkbox_agenda:before, #bp_mois_prec, #bp_mois_next {
+  background-color: #11689c;
+  
+}
+
+
+
+
+.days, .jautre, #affichage_message, #affichage_citation,.modiftheme_citation,#affichage_message, #affichage_citation {
+background-color:#006dad;
+}
+textarea, .container input[type="text"], #text_editor_note,#text_editor_message, .module_appareils{
+/*background-color:#006dad;*/
+border: 1px solid #006dad;
+}
+.container input[type="time"],textarea, .container input[type="text"]{
+	/*color:#fff;*/
+	font-size:15px;
+}
+#affichage_message{
+  color:black;
+}
+
+#graph_chauffage, #module_chauffage, .tour_camera, .block{
+  background-color:#006dad;
+}
+
+
+/**************************************************** message *******************************************************************************************/
+
+.message{
+	position: absolute;
+	z-index:10;
+	top:-70px;
+	right:10%;
+	max-width: 30%;
+	padding:20px 30px;
+	font-size: 1.2em;
+	background-color:rgba(0, 0, 0, 0.5);
+	color: #fff; /*#114263;*/
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+}
+.message:before {
+	content: "➤ ";
+}
+.message button{
+	margin: 10px auto;
+}
+@media (max-width: 800px) {
+  .message{
+    right:5%;
+    max-width: 80%;
+    padding:2% 2.5%;
+    font-size: 1em;
+  }
+}
+/**************************************************** menu *******************************************************************************************/
+
+
+#volet    
+{
+  position:absolute;    
+  z-index: 5;
+  height:96%;
+  width:15%;
+  left:4%;
+  top:0px;
+  padding: 2% 0;
+  /*background-color: #282828;*/
+  /*border-right: 1px solid #181818;*/
+  overflow: scroll;
+}
+
+.mv-item,
+.mv-item a {
+  display: inline-block;
+  width: 90%; 
+  margin: 1px;
+  cursor:pointer;
+}
+.mv-item a {
+  padding: 8px 5%;
+  color: #666;
+  background: #FFF;
+  text-decoration: none; 
+  -webkit-transition: all .3s; 
+  -moz-transition: all .3s; 
+  transition: all .3s; 
+  overflow: hidden; 
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+.mv-item a:hover,
+.mv-item a:focus {
+  background: #1ABC9C;
+  color: #FFF;
+  padding-left: 30px; 
+}
+
+#volet li {
+  height: 40px;
+  line-height: 40px;
+  width: 80%;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+#volet li:hover {
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+#volet h3{
+	text-decoration: none;
+	font-weight: normal;
+	margin:0;
+}
+#volet h4{
+	margin:5px;
+	margin-left:30px;
+}
+#volet h4:hover{
+	margin-left:40px;
+}
+#bp_volet {
+  background-image: url(img/menuicon.png);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index:15;
+  right: 10px;
+  bottom:10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-backgroud-size: 100% 100%;
+  -o-backgroud-size: 100% 100%;
+  -webkit-backgroud-size: 100% 100%;
+  display:none;
+}
+@media (max-width: 800px) {
+	#volet    
+  {
+    width:80%;
+    left:-80%;
+    overflow: scroll;
+  }
+  #bp_volet {
+    display:block;
+  }
+}
+ /******************************************************************** menu et onglets ******************************************************************************/
+
+
+.menu, .menu_mobile{
+	position: fixed;
+	top:0px;
+	left:-4%;
+	height: 100%;
+	width: 4%;
+	z-index: 120; 
+	overflow-y:scroll;
+}
+.menu_mobile{
+  left:0%;
+	width: 10%;
+  display:none;
+}
+.menu img, .menu_mobile img{
+	width: 95%;
+}
+	.menu_mobile img:hover, .menu img:hover{
+	cursor:pointer;
+	animation: anim_menu 0.2s; 
+	transform: scale(1.5);
+}
+@media (max-width: 800px) {
+	.menu_mobile{
+    display: block;
+  }
+  .menu{
+    display: none;
+  }
+}
+@keyframes anim_menu {
+	from {
+			transform: scale(1);
+	}
+	to {
+			transform: scale(1.5);
+	}
+}
+
+ /******************************************************************* modules appareils *******************************************************************************/
+
+ .module_appareils{
+	width:85%;
+	padding-left:5%; 
+	margin:5px auto;
+	border-radius: 28px;
+	vertical-align:center;
+}
+.module_appareils button{
+	margin:0;
+}
+.module_appareils span{
+	float:left;
+	margin: 2px 0;
+	max-width:45%;
+	overflow: hidden; 
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+/******************************************************************* modules alarme *******************************************************************************/
+
+.module_alarme th{
+	border-bottom: 1px solid grey;
+	text-align: left;
+}
+.module_alarme input, .module_alarme button{
+/*background-color: #504e4e79;*/
+border:0px;
+font-size: 18px;
+text-align:left;
+width: auto;
+}
+ /******************************************************************* modules agenda *******************************************************************************/
+
+	#affichage_planing {
+		height:75%;
+	}
+	#col_agenda{
+		width:24.5%;
+		height:100%;
+		float:left;
+		margin-left:-1px;
+		border: 1px solid rgba(0,0,0,.1);
+		border-bottom: 0px;
+		border-top: 0px;
+		overflow-y:hidden;
+		white-space:nowrap;
+	}
+	#titre_module_agenda{
+		font-size:18px;
+		border-bottom: 1px solid grey;
+	}
+	#affichage_planing li{
+		text-align:left;
+		margin-left:10px;
+	}
+
+/******************************************************************** module notif ******************************************************************************/
+
+	.notification table{
+		min-width:70%;
+	}
+	.notification th{
+		border-bottom: 1px solid grey;
+		text-align:left;
+	}
+
+ /******************************************************************* module redirections *******************************************************************************/
+
+	#redirections{
+		cursor:pointer; 
+		font-family: 'Open Sans', sans-serif;
+		cursor:pointer;                       /*    gestion des textes   */
+		font-size: 100%;
+		color: #fff;
+		padding: 0 1% 0 1%;
+ 	}
+ 
+/************************************************************** module et page Messagerie ************************************************************************************/
+
+	#notif_clignottement{
+		position:absolute;
+		width:20px;
+		height:20px; 
+		margin-top:5px;
+		margin-left:5%;
+		border-radius:50%;
+		background-color:red;
+		display:none;
+	}
+
+	#text_editor_message{
+		padding: 1%;
+		width:50%; 
+		height:60px; 
+		margin: auto;
+		border:0;
+		margin-top: 10px;
+		border-bottom:1px solid grey;
+		overflow-y:scroll;
+	}
+
+/************************************************************** message et citation ************************************************************************************/
+
+		#affichage_message{
+			width:60%;	
+			padding:2px 6px;		
+		}
+
+
+		#note_citation{
+			width:60%;			
+		}
+		.etoile{
+		    cursor:pointer;
+		 }
+
+#affichage_message, #affichage_citation{
+	/*background-color:#1d6fa5;*/
+	width:80%;
+	/*border-radius:10px;*/
+	padding:8px 6px 8px -5px;
+	margin:4px;
+			
+}
+#affichage_message{
+	width:60%;	
+	padding:2px 6px;		
+}
+
+
+#note_citation{
+	width:60%;			
+}
+.etoile{
+    cursor:pointer;
+ }
+
+ @media (max-width: 800px) {
+	#affichage_message, #affichage_citation{
+		/*background-color:#1d6fa5;*/
+		width:90%;
+		margin: 4px 5%;		
+	}
+ }
+/************************************************************** camera ************************************************************************************/
+
+.bp_camera{
+  margin-top:10%;
+}
+.bp_camera img{
+	width:50px;
+	cursor:pointer;
+	border-radius:50%;
+	margin-top: 2%;
+	background-color: #006dad;
+}
+.bp_camera img:hover{
+	-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			-o-transform: scale(1.1);
+					transform: scale(1.1);
+}
+.tour_camera{
+	width:640px;
+	height:480px;
+	padding: 20px;
+	cursor:pointer;
+	float:left;
+	margin-top:2%; 
+	margin-left:5%; 
+	border-radius: 10px; 
+}
+ @media (max-width: 800px) {
+	.bp_camera{
+    margin-top:0%;
+  }
+   .tour_camera{
+      width:90%;
+	    height:auto;
+   }
+ }
+/*************************************************************** block ***********************************************************************************/
+
+.block{
+	width:88%;
+	padding: 1%;
+	margin: 2% 5%;
+	border-radius: 10px; 
+}
+
+
+/*************************************************************** notes ***********************************************************************************/
+
+	#titre_note, #niveau_note{
+		border:0px;
+		border-bottom:1px solid grey;
+		float:left;
+		margin-left:5%;
+		padding:5px 10px;
+		font-size: 18px;
+	}
+	#text_editor_note{
+		height:80%;
+		width:96%;
+		overflow-x:hidden;
+		text-align:left;
+		padding: 2%;
+		margin-top:10px;
+	}
+
+
+
+
+/********************************************************************* chauffage *************************************************/
+
+	#graph_chauffage{
+		float:left; 
+		width:45%; 
+		padding: 1%; 
+		margin:5% 5% 2% 5%; 
+		border-radius:10px; 
+	}
+	#module_chauffage{
+		float:left; 
+		width:18%; 
+		padding: 2% 2% 2% 2%; 
+		margin:2% 0 0% 5%; 
+		border-radius:10px;
+	}
+
+	.temp_froid {   color: blue; opacity:0.5; }
+	.temp_ok {   color: black; opacity:0.5; }
+	.temp_bof {   color: orange; opacity:0.5; }
+	.temp_wrong {   color: red; opacity:0.5; }
+
+	#meteo_chauffage{
+		width:460px;
+		padding: 2%; 
+		background-color:#114263; 
+		border-radius:10px;
+	}
+	
+	#range_temp{
+		height: 5px;
+		width: 96%;
+		background: lightgrey;
+		margin: 2%;
+		margin-top: 5%;
+		position: relative;
+	}
+	.range_button{
+		height: 25px;
+		width: 16px;
+		background: grey;
+		border-radius: 50%;
+		position: absolute;
+		top:-10px;
+		font-size: 15px;
+		line-height: 80px;
+		box-shadow: inset 0px -1px 2px 0px black;
+	}
+
+
+	.range_temperature input[type=range] {
+		-webkit-appearance: none;
+	}
+	.range_temperature input[type=range]:focus {
+		outline: none;
+	}
+	.range_temperature input[type=range]::-webkit-slider-runnable-track {
+		width: 100%;
+		height: 5px;
+		cursor: pointer;
+		background: lightgrey;
+	}
+	.range_temperature input[type=range]::-webkit-slider-thumb {
+		height: 25px;
+		width: 16px;
+		background: #114263;
+		cursor: pointer;
+		-webkit-appearance: none;
+		margin-top: -10px;
+		border-radius: 50%;
+		box-shadow: inset 0px -1px 2px 0px black;
+	}
+ 
+@media (max-width: 800px) {
+	#graph_chauffage{
+    width:90%; 
+  }
+    #module_chauffage{
+    width:40%; 
+  }
+  #meteo_chauffage{
+    overflow-x:scroll;
+    margin: 5% 0;
+    width:96%;
+  }
+}
+/********************************************************************* Agenda *************************************************/
+
+	#agenda{
+		width: 85%;
+		height: 100%;
+		margin-left: 15%;
+		overflow: scroll;
+	}
+	.affichage_mois{
+		width:98%;
+		margin: 1%;
+	}
+
+	.first_line li {
+		width: 13%;
+		height: 20px;
+		padding:0.5% 1% 0% 0%;
+		float: left;
+		text-align: right;
+		font-size: 14px;
+		font-weight: bold;
+		border: none;
+		list-style-type:none;
+		border-bottom: 2px solid rgba(0,0,0,.1);
+	}
+	.days, .jautre {
+		width: 13%;
+		height: 75px;
+		float: left;
+		text-align: left;
+		padding: 0.4%;
+		margin: 0.1%;
+		overflow-y:scroll;
+		cursor: pointer;
+		list-style-type:none;
+		/*background-color:#1d6fa5;*/
+		overflow-x: hidden;
+		text-overflow: ellipsis;
+	}
+	.days:hover, .jautre:hover,#today {
+		opacity:0.8;
+	}
+	.jautre {
+		opacity: 0.7;
+	}
+	#planing{
+		position: absolute; 
+		z-index: 0;
+		width: 79%;
+		left:19%;
+		height:98% !important; 
+		top: 5%;
+		padding:1%;
+		display: none;
+		/*border: 1px solid #8E8E8E;*/
+		/*background-color: #504e4e79;*/
+		text-align: center;
+		padding: 5px;  
+		z-index: 6;
+    overflow:scroll;
+	}
+	#planing h3{
+		cursor:pointer;
+	}
+	#quitter_planing{
+		position: absolute;
+		width: 100%;
+		height:100%;
+		top: 0%;
+		left: 0%;
+		background-color: rgba(0,0,0,0);
+		display: none;
+		z-index: 5;
+	}
+	#formulaire_new_event{
+		display: none;
+	}
+	#formulaire_modif_event{
+		display: none;
+	}	
+	.titre_agenda{
+		display: inline-block;
+    width:250px;
+	}
+
+	#bp_mois_prec, #bp_mois_next{
+		position: absolute;
+		height:40px;
+		position:left; 
+		border-radius:50%; 
+		/*background-color:#504e4e79; */
+		box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+		margin-left: 20px;
+	}
+	#bp_mois_prec{
+		margin-left: -60px;
+	}
+	#bp_event{
+		font-size:18px;
+		background-color:#114263; 
+		border: none;
+		border-radius:5px;
+		box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+		cursor:pointer;
+	}
+	#bp_event:hover{
+		box-shadow: inset 0 0 5px rgba(0,0,0,0.6);
+	}
+
+@media (max-width: 800px) {
+	.titre_agenda{
+		font-size:15px;
+		width:100px;
+  }
+  #planing{
+    top: 0%;
+    left: 10%;
+    height: 100%;
+    width: 90%;
+  }
+}

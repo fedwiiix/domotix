@@ -1,0 +1,19 @@
+[dir]
+cloudDir = /var/www/cloud/
+cloudMusicDir = Musique
+cloudInitDir = Accueil
+cloudTrashDir = Corbeille
+
+[backend]
+backendDir = /var/www/domotix-server/
+
+[pass]
+
+cameraPass = 966d7c6841d322d2aa8fbc58a074b2e25 
+playerPass = f6b99a74c6841dfe859b3927302c5cf3
+
+[digestConnection]
+user = aiaUser
+pass = ae9b3927a8fbc58a0198sd56
+
+pass2 = b714ffe859b3927fbc58a02a190cac49ee

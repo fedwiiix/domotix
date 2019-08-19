@@ -1,0 +1,367 @@
+﻿0_0___
+1_1_Marie, mère de Dieu__
+1_2_Basile le Grand_Grégoire de Nazianze_
+1_3_Geneviève__
+1_4_Angèle de Foligno__
+1_5_Edouard le Confesseur__
+1_6_Épiphanie du Seigneur_Melaine_
+1_7_Raymond de Penafort__
+1_8_Lucien de Beauvais__
+1_9_Alix Le Clerc__
+1_10_Guillaume de Bourges__
+1_11_Paulin d'Aquilée__
+1_12_Marguerite Bourgeoys_Tatiana de Rome_
+1_13_Hilaire de Poitiers_Yvette_
+1_14_Nina__
+1_15_Remi__
+1_16_Honorat_Marcel Ier_
+1_17_Antoine le Grand_Roseline_
+1_18_Marguerite de Hongrie_Prisca_
+1_19_Germanicus_Marius_
+1_20_Fabien_Sébastien_
+1_21_Agnès de Rome__
+1_22_Vincent__
+1_23_Ildefonse de Tolède__
+1_24_François de Sales__
+1_25_Conversion de Saint Paul__
+1_26_Tite et Timothée_Paule_
+1_27_Angèle Merici_Dévote_
+1_28_Ephrem le Syrien_Thomas d'Aquin_
+1_29_Gildas__
+1_30_Martine__
+1_31_Jean Bosco_Marcella_
+2_1_Brigitte de Kildare_Perpétue et Félicité_
+2_2_Présentation de Jésus au Temple__
+2_3_Blaise de Sébaste__
+2_4_Véronique__
+2_5_Agathe de Catane__
+2_6_Gaston_Paul Miki_
+2_7_Eugénie Smet__
+2_8_Joséphine Bakhita__
+2_9_Apolline__
+2_10_Scholastique_Arnaud_
+2_11_Héloïse_Notre-Dame de Lourdes_
+2_12_Ombeline_Felix_
+2_13_Gilbert__
+2_14_Cyrille et Méthode_Valentin_
+2_15_Claude La Colombière__
+2_16_Julienne de Nicomédie__
+2_17_Alexis Falconieri__
+2_18_Bernadette Soubirous__
+2_19_Gabin de Rome__
+2_20_Aimée__
+2_21_Pierre Damien__
+2_22_Isabelle de France__
+2_23_Alexandre l'Acémète_Lasare_
+2_24_Modeste__
+2_25_Nestor de Pamphylie__
+2_26_Alexandre__
+2_27_Honorine__
+2_28_Auguste Chapdelaine__
+2_29_Romain__
+3_1_Aubin d'Angers__
+3_2_Charles le Bon__
+3_3_Guénolé__
+3_4_Casimir__
+3_5_Olive_Virgile_
+3_6_Colette de Corbie__
+3_7_Perpétue et Félicité__
+3_8_Jean de Dieu__
+3_9_Françoise Romaine__
+3_10_Vivien__
+3_11_Rosine__
+3_12_Justine__
+3_13_Rodrigue et Salomon de Cordoue__
+3_14_Mathilde__
+3_15_Louise de Marillac__
+3_16_Bénédicte__
+3_17_Patrick_Partricia_
+3_18_Cyrille de Jérusalem__
+3_19_Joseph__
+3_20_Herbert__
+3_21_Clémence__
+3_22_Léa__
+3_23_Alphonse Turibe de Mogrovejo__
+3_24_Catherine de Suède__
+3_25_Annonciation__
+3_26_Larissa__
+3_27_Rupert de Salzbourg__
+3_28_Gontran__
+3_29_Gladys__
+3_30_Amédée IX__
+3_31_Benjamin de Perse__
+4_1_Hugues de Grenoble__
+4_2_François de Paule_Sandrine_
+4_3_Richard de Chichester__
+4_4_Isidore de Séville__
+4_5_Irène__
+4_6_Célestin Ier__
+4_7_Jean Baptiste de La Salle__
+4_8_Gautier_Julie Billiart_
+4_9_Demetrius_Maxime d'Alexandrie_
+4_10_Fulbert__
+4_11_Stanislas__
+4_12_Jules Ier__
+4_13_Ida de Louvain__
+4_14_Maxime__
+4_15_Patern de Vannes__
+4_16_Benoît-Joseph Labre_Bernadette Soubirous_
+4_17_Kateri Tekakwitha__
+4_18_Parfait de Cordoue__
+4_19_Mappalique_Emma_
+4_20_Odette__
+4_21_Anselme de Cantorbéry__
+4_22_Epipode_Alexandre_
+4_23_Georges__
+4_24_Fidèle de Sigmaringen__
+4_25_Marc__
+4_26_Alde__
+4_27_Amédée IX_Zita_
+4_28_Pierre Marie Chanel_Valérie de Milan_
+4_29_Catherine de Sienne__
+4_30_Pie V_Robert_
+5_1_Jérémie, le prophète_Joseph Artisan_
+5_2_Athanase d'Alexandrie_Boris de Bulgarie_
+5_3_Jacques le Mineur_Philippe_
+5_4_Sylvain de Gaza__
+5_5_Judith__
+5_6_Jacques Chastan_Prudence_
+5_7_Gisèle__
+5_8_Désiré__
+5_9_Pacôme le Grand_Caroline_
+5_10_Solange__
+5_11_Cyrille et Méthode_Estelle_
+5_12_Achille de Larissa__
+5_13_Notre-Dame de Fatima_Jeanne d'Arc_
+5_14_Matthias__
+5_15_Denise__
+5_16_Honoré__
+5_17_Pascal Baylon__
+5_18_Dioscore_Eric de Suède_
+5_19_Yves__
+5_20_Bernardin de Sienne_Lydie_
+5_21_Constantin Ier le Grand__
+5_22_Émile_Rita (Marguerite) da Cascia_
+5_23_Didier de Vienne__
+5_24_Donatien et Rogatien__
+5_25_Madeleine-Sophie Barat_Sophie et Sofia_
+5_26_Bérenger_Philippe Neri_
+5_27_Augustin de Cantorbéry__
+5_28_Germain de Paris__
+5_29_Ursule Ledochowska__
+5_30_Ferdinand III le Saint__
+5_31_Visitation de la Vierge Marie_Perrine_
+6_1_Justin__
+6_2_Blandine et Pothin__
+6_3_Kevin_Martyrs de l'Ouganda_
+6_4_Clotilde_Marthe_
+6_5_Boniface_Igor II_
+6_6_Claude_Norbert de Xanten_
+6_7_Gilbert__
+6_8_Médard de Noyon__
+6_9_Ephrem le Syrien_Diane_
+6_10_Landry__
+6_11_Barnabé__
+6_12_Guy Vignotelli__
+6_13_Antoine de Padoue__
+6_14_Elisée__
+6_15_Germaine Cousin__
+6_16_Jean François Régis__
+6_17_Hervé__
+6_18_Léonce de Tripoli__
+6_19_Jude_Romuald_
+6_20_Silvère__
+6_21_Louis de Gonzague_Raoul_
+6_22_Auban__
+6_23_Etheldrede_Paule_
+6_24_Jean Baptiste__
+6_25_Prosper d'Aquitaine_Eléonore_
+6_26_Anthelme de Chignin__
+6_27_Cyrille d'Alexandrie_Ferdinand d'Aragon_
+6_28_Irénée de Lyon__
+6_29_Paul_Pierre_
+6_30_Martial de Limoges__
+7_1_Thierry__
+7_2_Eugénie Joubert_Martinien_
+7_3_Thomas__
+7_4_Elisabeth du Portugal_Florent_
+7_5_Antoine-Marie Zaccaria__
+7_6_Maria Goretti__
+7_7_Ralph Milner_Roger Dickenson_
+7_8_Aquila et Priscille_Thibaut_
+7_9_Augustin ZhaoRong et ses compagnons_Marie-Hermine de Jésus_
+7_10_Ulric__
+7_11_Benoît__
+7_12_Nabor et Félix_Olivier Plunket_
+7_13_Henri II_Joël_
+7_14_Camille de Lellis__
+7_15_Bonaventure__
+7_16_Notre-Dame du mont Carmel__
+7_17_Charlotte__
+7_18_Frédéric__
+7_19_Macrine la Jeune_Arsène_
+7_20_Aurèle_Marina_
+7_21_Laurent de Brindisi_Victor de Marseille_
+7_22_Marie-Madeleine__
+7_23_Brigitte de Suède__
+7_24_Christine l'Admirable__
+7_25_Christophe_Jacques le Majeur_
+7_26_Anne et Joachim_Annelore_
+7_27_Nathalie et ses compagnons__
+7_28_Samson__
+7_29_Marthe__
+7_30_Juliette_Pierre Chrysologue_
+7_31_Ignace de Loyola__
+8_1_Alphonse-Marie de Liguori__
+8_2_Pierre-Julien Eymard__
+8_3_Lydie_Salomé la Myrophore_
+8_4_Jean-Marie Vianney__
+8_5_Abel de Lobbes_Dédicace de Sainte-Marie-Majeure_
+8_6_Transfiguration du Seigneur__
+8_7_Gaétan de Thiene__
+8_8_Dominique de Guzman__
+8_9_Thérèse Bénédicte de La Croix__
+8_10_Laurent de Rome__
+8_11_Claire d'Assise_Suzanne_
+8_12_Jeanne-Françoise de Chantal__
+8_13_Hippolyte de Rome__
+8_14_Maximilien Kolbe__
+8_15_Assomption de la Vierge Marie__
+8_16_Armel_Etienne de Hongrie_
+8_17_Claire de Montefalco_Dimitrios le Jeune_
+8_18_Hélène__
+8_19_Jean Eudes__
+8_20_Bernard de Clairvaux_Philibert_
+8_21_Pie X__
+8_22_Mémoire de la Vierge Marie Reine_Symphorien d'Autun_
+8_23_Rose de Lima__
+8_24_Barthélemy__
+8_25_Louis_Tite et Timothée_
+8_26_Césaire d'Arles_Natacha_
+8_27_Monique__
+8_28_Augustin__
+8_29_Martyre de saint Jean Baptiste_Sabine_
+8_30_Fiacre__
+8_31_Aristide__
+9_1_Gilles__
+9_2_Ingrid de Skänninge__
+9_3_Grégoire le Grand__
+9_4_Rosalie__
+9_5_Raïssa__
+9_6_Bertrand de Garrigues__
+9_7_Reine__
+9_8_Nativité de la Vierge Marie__
+9_9_Alain de la Roche_Pierre Claver_
+9_10_Inès__
+9_11_Théodora__
+9_12_Le saint nom de Marie__
+9_13_Jean Chrysostome__
+9_14_Croix Glorieuse__
+9_15_Notre-Dame des sept Douleurs__
+9_16_Corneille et Cyprien_Edith de Barking_
+9_17_Hildegarde de Bingen_Robert Bellarmin_
+9_18_Joseph de Cupertino_océane_
+9_19_Janvier de Naples_Marie-Emilie de Rodat_
+9_20_André Kim Taegon__
+9_21_Matthieu__
+9_22_Maurice_Silvain_
+9_23_Constant_Pio de Pietrelcina_
+9_24_Silouane__
+9_25_Firmin__
+9_26_Côme et Damien__
+9_27_Vincent de Paul__
+9_28_Laurent Ruiz et 15 compagnons_Venceslas_
+9_29_Gabriel Michel Raphaël__
+9_30_Jérôme__
+10_1_Thérèse de l'Enfant-Jésus__
+10_2_Anges gardiens__
+10_3_Gérard de Brogne__
+10_4_François d'Assise__
+10_5_Faustine_Fleur_
+10_6_Bruno_Thomas_
+10_7_Auguste_Notre-Dame du Rosaire_
+10_8_Pélagie la Pénitente__
+10_9_Denis de Paris__
+10_10_Daniel et ses compagnons__
+10_11_Théophane l'Hymnographe__
+10_12_Spérie_Wilfried_
+10_13_Edouard le Confesseur_Géraud d'Aurillac_
+10_14_Calixte Ier__
+10_15_Thérèse d'Avila__
+10_16_Hedwige_Marguerite-Marie Alacoque_
+10_17_Ignace d'Antioche_Baudouin_
+10_18_Luc__
+10_19_Isaac Jogues_René Goupil_
+10_20_Adeline__
+10_21_Céline__
+10_22_Elodie et Nunilon_Salomé la Myrophore_
+10_23_Jean de Capistran__
+10_24_Florentin__
+10_25_Chély (Hilaire de Mende)_Crépin et Crépinien_
+10_26_Demetrius__
+10_27_Emeline__
+10_28_Jude_Simon le Cananéen_
+10_29_Narcisse__
+10_30_Bienvenue Bojani__
+10_31_Quentin__
+11_1_Tous les saints__
+11_2_Fête des défunts__
+11_3_Hubert_Martin de Porres_
+11_4_Charles Borromée__
+11_5_Bertille_Sylvie_
+11_6_Léonard de Noblat__
+11_7_Karine, Mélassippe et Antoine_Willibrord_
+11_8_Geoffroy d'Amiens__
+11_9_Dédicace de la Basilique du Latran_Théodore_
+11_10_Léon le Grand__
+11_11_Martin de Tours__
+11_12_Josaphat Kuntsevych_Christian_
+11_13_Brice__
+11_14_Laurent de Dublin__
+11_15_Albert le Grand_Victoire_
+11_16_Marguerite d'Ecosse_Matthieu_
+11_17_Elisabeth de Thuringe__
+11_18_Rose-Philippine Duchesne_Aude_
+11_19_Tanguy__
+11_20_Edmond le Martyr__
+11_21_Présentation de la Vierge Marie__
+11_22_Cécile de Rome__
+11_23_Clément Ier_Séverin de Paris_
+11_24_Flora et Marie_Martyrs du Vietnam_
+11_25_Catherine d'Alexandrie_Christ Roi_
+11_26_Innocent d'Irkoutsk_Delfine_
+11_27_Fête de la Vierge Marie en son icône du signe__
+11_28_Catherine Labouré_Jacques de la Marche_
+11_29_Saturnin__
+11_30_André__
+12_1_Eloi_Florence_
+12_2_Bibiane_Silvère_
+12_3_François-Xavier__
+12_4_Barbara_Jean Damascène_
+12_5_Gérald__
+12_6_Nicolas de Myre__
+12_7_Ambroise de Milan__
+12_8_Immaculée Conception__
+12_9_Léocadie_Pierre Fourier_
+12_10_Eulalie__
+12_11_Damase Ier_Daniel le Stylite_
+12_12_Corentin_Notre Dame de Guadalupe_
+12_13_Lucie de Syracuse__
+12_14_Jean de la Croix_Odile_
+12_15_Ninon__
+12_16_Adélaïde_Alice_
+12_17_Judicaël_Gaël_
+12_18_Gatien de Tours__
+12_19_Urbain V__
+12_20_Zéphyrin__
+12_21_Pierre Canisius__
+12_22_Françoise-Xavière Cabrini__
+12_23_Armand__
+12_24_Adèle_Emmanuel et Emmanuelle_
+12_25_Nativité du Christ__
+12_26_Étienne__
+12_27_Jean l'Evangéliste__
+12_28_Innocents__
+12_29_David__
+12_30_Roger_Sainte Famille_
+12_31_Jean François Régis_Sylvestre Ier_

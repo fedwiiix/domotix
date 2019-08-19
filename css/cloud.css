@@ -1,0 +1,486 @@
+
+
+
+#trait{ 
+  background: #006dad;
+}
+
+#case_dir,#case_file, #case_file_allonger{
+	background: #fff;
+}
+
+#img_file{
+  background-color: #333333;
+}
+#case_dir:hover,#case_file:hover,#case_file_allonger:hover,#img_file_allonger:hover, .drop-hover{
+	background-color: #1ABC9C !important;
+}
+/*.drop-active{
+  background-color: #DCDCDC !important;
+}*/
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  background:#DCDCDC;
+  vertical-align: baseline;
+}
+#trait{
+  float: left;
+  width: 94%;
+  height:4px;
+  margin: 1% 0 1% 3%;
+  box-shadow:0 0 1px;
+}
+/********************************************************** case dir & file ***********************************/
+
+#case_dir,#case_file, #case_file_allonger{
+	display: inline-block;
+	cursor: pointer;
+	width: 155px;
+	margin: 0.3%;
+  text-align: center;
+  -webkit-user-select: none; /* Safari */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+#case_file_allonger{
+  width: 48%;
+  text-align: left;
+}
+#img_file{
+  margin: 2px;
+	border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  display:flex;
+  float: left;
+	color:#006dad;
+}
+#case_dir #img_file{
+	width: 35px;
+	height: 35px;
+}
+#case_file_allonger #img_file{
+  width: 25px;
+  height: 25px;
+}
+#case_file p, #case_file_allonger p {   /* img auto */
+	margin: auto;
+	font-size: 40px;
+}
+#case_file_allonger p {
+	font-size: 10px;
+}
+
+#titre_case{
+  width: 145px;
+  padding: 0 5px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top:5px;
+  line-height:20px;
+}
+#titre_case img{
+  float:left;
+  height:20px;
+  margin-right:5px;
+}
+#case_dir #titre_case{
+  width: 100px;
+  margin-top:10px;
+}
+#case_file_allonger #titre_case{
+  line-height: 30px;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/********************************************************** affichage ***********************************/
+
+#file_list, #folder_list{
+  margin: 1%;
+}
+
+/*#cloud_affichage{
+	position: absolute;
+  overflow-y: hidden;	
+  display: none;
+	width: 67%;
+  height: 90%;
+  top: 5%;
+  left: 15%;
+	background-color: rgba(0,0,0,0.9);	
+	border-radius: 10px 0 10px 10px;
+	z-index: 15;
+}*/
+
+#cloud_affichage{
+  overflow-y: hidden;	
+  display: none;
+	position: absolute; 
+  z-index: 0;
+  width: 79%;
+  left:19%;
+  height:98% !important;
+  top: 0;
+  padding:1%;
+	z-index: 15;
+}
+
+/*
+#titre_affichage{
+  width: 100%;
+  height:7%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}*/
+#espace_affichage{
+  position: absolute;
+  overflow-y: scroll; 
+  width: 100%;
+  height:93%;
+  top:7%;
+}
+@media (max-width: 800px) {
+	#cloud_affichage{
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 10%;
+  }/*
+  #titre_affichage{
+    width: 80%;
+  }*/
+}
+
+#fleche_next_affichage, #fleche_prec_affichage{
+  position: absolute;
+  right:0;
+  height: 40px;
+  margin: 0px;
+  margin-top: 30px;
+  padding: 20% 0%;
+  background-color: grey;
+  border-radius: 100% 0% 0% 100%;
+  opacity: 0;
+	z-index:2;
+}
+#fleche_next_affichage:hover{
+  opacity: 0.4;
+  box-shadow: -10px 10px 15px;
+}
+#fleche_prec_affichage{
+  left:0px;
+  border-radius: 0px 100% 100% 0px;
+}
+#fleche_prec_affichage:hover{
+  opacity: 0.4;
+  box-shadow: 10px 10px 15px;
+}
+
+
+#titre_liste{
+  position:absolute;
+  top:0;
+  width: 100%;
+  height:30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+#bp_editer{
+  padding-top:5px;
+  padding-bottom:5px;
+  margin:5px 10px;
+}
+
+/********************************************************** lecteur ***********************************/
+
+#cloud_music_lecteur{
+	position:absolute; 
+	z-index: 6; 
+	right:5%; 
+	width:70%; 
+	bottom:5px;
+}
+
+.cloud_music_lecteur{
+  width: 100%;
+  height: 60px;
+  background-color: #006dad;
+  border-radius: 10px;
+/*background: rgba(212,212,212,1);
+background: -moz-linear-gradient(left, rgba(212,212,212,1) 0%, rgba(246,246,246,1) 50%, rgba(246,246,246,1) 85%, rgba(145,145,145,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,212,212,1)), color-stop(50%, rgba(246,246,246,1)), color-stop(85%, rgba(246,246,246,1)), color-stop(100%, rgba(145,145,145,1)));
+background: -webkit-linear-gradient(left, rgba(212,212,212,1) 0%, rgba(246,246,246,1) 50%, rgba(246,246,246,1) 85%, rgba(145,145,145,1) 100%);
+background: -o-linear-gradient(left, rgba(212,212,212,1) 0%, rgba(246,246,246,1) 50%, rgba(246,246,246,1) 85%, rgba(145,145,145,1) 100%);
+background: -ms-linear-gradient(left, rgba(212,212,212,1) 0%, rgba(246,246,246,1) 50%, rgba(246,246,246,1) 85%, rgba(145,145,145,1) 100%);
+background: linear-gradient(to right, rgba(212,212,212,1) 0%, rgba(246,246,246,1) 50%, rgba(246,246,246,1) 85%, rgba(145,145,145,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#919191', GradientType=1 );*/
+}
+
+
+#titre_music_lecteur{
+  display:inline-block;
+	overflow-y:hidden;
+  width:30%;
+	line-height:60px;
+  text-align: right;
+  font-size: 18px;
+	cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#cloudMusicbox{
+  display:inline-block;
+  width:65%;
+  float:right;
+}
+
+.cloudBp_play{
+  display:inline-block;
+  vertical-align:top;
+  width: 50px;
+  height:50px;
+  margin:5px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+	background-size: cover;
+	-moz-backgroud-size:100% 100%;
+	-o-backgroud-size:100% 100%;
+  -webkit-backgroud-size:100% 100%;
+  background-image: url(../img/music/pause.png);
+}
+#cloudPlayer_progress{
+  -webkit-appearance: none;
+  appearance: none;
+  display:inline-block;
+  vertical-align:top;
+  width: 60%;
+  height:7px;
+  margin-top:25px;
+  cursor: pointer;
+  border-radius:5px;
+  background-color:#ccc;
+}
+/*#player_progress::-webkit-progress-bar { background-color:#d3d3d3; }
+#player_progress::-webkit-progress-value { background-color:#006dad; } 
+#player_progress::-moz-progress-bar { background-color:#006dad; }*/
+#cloudPlayer_progress:hover{
+  zoom:1.2; 
+}
+#cloudPlayer_time{
+  display:inline-block;
+  position: absolute;
+  right:60px;
+  bottom:10px;
+}
+
+/******************************************* volume *************************************************/
+
+#cloudPlayer_volume {
+  position: absolute;
+  right:50px;
+  top:15px;
+  width: 10%;
+
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+#cloudPlayer_volume:hover {
+  opacity: 1;
+}
+#cloudPlayer_volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+ /* appearance: none;*/
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #006dad;
+  cursor: pointer;
+}
+#cloudPlayer_volume::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #006dad;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  #cloud_music_lecteur{
+    position:absolute; 
+    right:5%; 
+    width:80%; 
+  }
+  .cloud_music_lecteur{
+    height: 120px;
+  }
+  #titre_music_lecteur, #cloudMusicbox{
+    width:95%;
+  }
+  #cloudPlayer_progress{
+    margin-top:5px;
+  }
+  #cloudPlayer_volume {
+    display:none;
+  }
+}
+
+
+/************************************************************************************************************************************************/
+
+
+#cloud_music_lecteur_icon{
+  display: none;
+}
+#cloud_affichage_icon{
+  display: none;
+}
+#cloud_affichage_icon:hover, #cloud_music_lecteur_icon:hover{
+	 -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+       -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+           transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+	#agrandir_element, #reduire_element, .reduire_element_player{
+    display:none;
+  }
+}
+
+.ctxmenu    /********************** menu click droit ***********************/
+{
+  position:absolute;   
+  z-index: 6; 
+  min-width: 128px;
+  height:auto;
+  padding: 8px;
+  margin:0;
+	left:0px;
+	top:0px;
+  border: 1px solid #999;
+  background: #F8F8F8;
+  box-shadow: 2px 2px 2px #AAA;
+}
+.ctxmenu p { 
+  display: block;
+  text-decoration: none; 
+  margin: 1px; 
+  padding: 3px 15px; 
+  color: #666;
+  background: #FFF;
+  -webkit-transition: all .3s; 
+  -moz-transition: all .3s; 
+  transition: all .3s; 
+}
+.ctxmenu a {
+  color: #666;
+}
+.ctxmenu p:hover,
+.ctxmenu p:focus {
+  background: #1ABC9C;
+  color: #FFF;
+  padding-left: 30px; 
+}
+
+/***********************************************************************************************************************************************************************/
+
+
+#fileupload
+{  
+	position: absolute;
+	height:80%;
+  left: 40%;
+	top: 10%;
+  display: none;
+  z-index: 10;
+}
+
+
+/***********************************************************************************************************************************************************************/
+
+
+#volet .switch {
+  position: relative;
+  display: inline-block;
+  margin:50px auto;
+  width: 60px;
+  height: 34px;
+  border 1px solid white;
+}
+
+#volet .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+#volet .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+#volet input:checked + .slider {
+  background-color: rgba(0,0,0,0);
+  border:1px solid #328FC5;
+}
+
+#volet input:focus + .slider {
+  box-shadow: 0 0 1px #328FC5;
+}
+
+#volet input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+@media (max-width: 800px) {
+  #volet .switch{
+    display:none;
+  }
+}
+
+
