@@ -3232,7 +3232,7 @@ INSERT INTO `parametres` (`id`, `parametre`) VALUES
 ('backend_directory', '/var/www/domotixserver/'),
 ('cloud_directory', '/var/www/cloud/'),
 ('ip_raspberry', '192.168.1.240'),
-('lien_sms', 'https://smsapi.free-mobile.fr/sendmsg?user=16742713&pass=egAFYfEqVuZooK&msg='),
+('lien_sms', 'sms url'),
 ('piece', 'Chambre'),
 ('ville', 'Lannion'),
 ('web_app', '0');
